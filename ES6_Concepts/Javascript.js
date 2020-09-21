@@ -3,23 +3,18 @@
 
 // var,let Const,
 
-
 // var hello="hello"
 
 // if(hello==="hello")
 // {
-	
+
 // 	var array=["1","2"]
 // 	console.log("world",hello)
 // }
 // console.log(array)
 
-
-
 // lecture No 2
 // let vs const
-
-
 
 // var value=123
 // var value=124
@@ -38,8 +33,7 @@
 
 // console.log(person)
 
-
-//lecture No 3 let and const in real world  
+//lecture No 3 let and const in real world
 
 // {
 // 	const new1="Irfan"
@@ -49,13 +43,13 @@
 // for(let i=0;i<10;i++){
 // 	console.log(i)
 // 	setTimeout( function(){
-// 		console.log(i) 
+// 		console.log(i)
 // 	},1000)
 // }
 // for(var i=0;i<10;i++){
 // 	console.log(i)
 // 	setTimeout( function(){
-// 		console.log(i) 
+// 		console.log(i)
 // 	},1000)
 // }
 
@@ -67,8 +61,6 @@
 // console.log(newVar1)
 // let newVar1="Irfan"
 
-
-
 // lecture No 6 Arrow Function
 
 // let arr=["Irfan","Hayat","Work Hard"]
@@ -77,8 +69,6 @@
 // console.log(result)
 
 // arr.map(result=>result)
-
-
 
 // lecture No 7
 // let race="120km"
@@ -92,15 +82,9 @@
 
 // console.log(data)
 
-
-
-
 // let arr=["Irfan","Hayat","Muhammad"]
 // const result=arr.filter(result=>result.length>5)
 // console.log(result)
-
-
-
 
 // lecture No 9 Default function
 
@@ -112,8 +96,6 @@
 // }
 
 // addNumber(undefined,undefined)
-
-
 
 // lecture No 10
 
@@ -127,19 +109,16 @@
 
 // console.log(state.person())
 
-
 // class Car {
 // 	constructor(carName,carModel){
 // 		this.carName=carName,
 // 		this.carModel=carModel
 // 	}
-   
-        
+
 // }
 
 // const mehran=new Car("Mehran","2017")
 // const cultus=new Car("Cultus","2018")
-
 
 // Car.prototype.summarize=function(){
 // 	console.log(`Car Name is ${this.carName} and Model is ${this.carModel}`)
@@ -153,7 +132,6 @@
 // 	name:"Muhammad Irfan Hayat",
 // 	rollNo:"61"
 
-
 // }
 
 // const markup=`
@@ -165,14 +143,12 @@
 
 // console.log(markup)
 
-
 // lecture No 14
 
 // const person={
 // 	name:"Muhammad Irfan Hayat",
 // 	rollNo:"61"
-    
-    
+
 // }
 // function heading(strings,...values){
 // 	let  str=""
@@ -180,12 +156,10 @@
 // 		str+=string+(values[i] || " ")
 // 	})
 // 	return str
-// }     
-// const markup=heading`My name is ${person.name} and my rollNo is ${person.rollNo}` 
+// }
+// const markup=heading`My name is ${person.name} and my rollNo is ${person.rollNo}`
 
 // console.log(markup)
-
-
 
 // lecture No 18 destructuring
 
@@ -199,8 +173,6 @@
 
 // console.log(name,rollNo,arr)
 
-
-
 // lecture 19 destructuring with array
 // const details=["61","Irfan","irfanhayat@gmail.com"]
 
@@ -212,16 +184,13 @@
 // const [Captain,ViceCaptain,...TeamPlayer]=data.split(",")
 // console.log(Captain ,ViceCaptain ,TeamPlayer)
 
-
 // lecture No 20 swapping Varaible
 
 // let firstname="hayat"
 // let lastname="Irfan";
 
- 
 // [firstname,lastname]=[lastname,firstname]
 // console.log(firstname,lastname)
-
 
 // lecture 21 Destructuring Functions Multiple results and named defaults
 
@@ -238,7 +207,6 @@
 
 // console.log(Aud,Usd)
 
-
 // function tipamount({tip=10,amount=101}={}){
 
 // 	const currency={
@@ -250,9 +218,6 @@
 // let amount=tipamount({})
 // console.log(amount)
 
-
-
-
 // lecture No 22
 
 // let cuts=["Basket","camel","Ball"]
@@ -261,10 +226,8 @@
 // 	console.log(cut,i)
 // }
 
-
-
 // function addNumber(){
-// 	let sum=0  
+// 	let sum=0
 // 	for(let num of arguments){
 // 		sum+=num
 // 	}
@@ -272,9 +235,6 @@
 // }
 
 // addNumber(1,2,3,4,5,6)
-
-
-
 
 // const apple={
 // 	price:65,
@@ -286,17 +246,11 @@
 // 	console.log(value)
 // }
 
-
-
-
-
 // const people=["Irfan","Arslan","Nouman"]
 
 // Array.from(people,(person,index)=>{
 // 	console.log(person,index)
 // })
-
-
 
 // lecture No 26
 // const person=[{
@@ -305,7 +259,6 @@
 // }]
 // console.log(person.find(person=>person.name==="M Irfan Hayat"))
 // console.log(person.findIndex(person=>person.name==="M Irfan Hayat"))
-
 
 // lecture No 28 Spread operator javascript
 
@@ -329,7 +282,6 @@
 
 // let id=209846
 
-
 // let index=comments.findIndex((result)=>result.id===id)
 // console.log([...comments.slice(0,index)],[...comments.slice(index+1)])
 
@@ -337,15 +289,11 @@
 
 // const arr=["Irfan","Hayat","Hi"]
 
-
-
 // function sayHi(){
 // 	console.log(arguments)
 // }
 
 // sayHi(...arr)
-
-
 
 // //lecture N0 34 Promise With Object
 
@@ -368,14 +316,11 @@
 // 	{title:"I love Javascript",author:"Weak Boy",id:5}
 // ]
 
-
-
 // const authors=[
 // 	{name:"Irfan",facebook:"Weak Boy@facebook.com" },
 // 	{name:"Arslan",facebook:"Weak1 Boy@facebook.com" },
 // 	{name:"Nouman",facebook:"Weak2 Boy@facebook.com" },
 // ]
-
 
 // function getPostId(id){
 // 	return new Promise((resolve,reject)=>{
@@ -384,13 +329,11 @@
 // 			resolve(data)
 // 		}
 // 		else{
-// 			reject("Error Come")     
+// 			reject("Error Come")
 
 // 		}
 // 	})
-    
-        
-    
+
 // }
 // function hydrateAurthor(post){
 // 	return new Promise((resolve,reject)=>{
@@ -410,26 +353,17 @@
 // 	console.log(post)
 // }).catch(err=>{console.log(err)})
 
-
-
 // //lecture No 37 Promise
-// const Person=new Promise((resolve)=>{
-// 	resolve(["Muhammad Irfan","061"])
-// }) 
+const Person = new Promise((resolve) => {
+  resolve(["Muhammad Irfan", "062"]);
+});
 
-// const personAddress=new Promise((resolve)=>{
-// 	resolve(["Kuri Road"])
-// })
+const personAddress = new Promise((resolve) => {
+  resolve(["Kuri Road"]);
+});
 
-// Promise.all([Person,personAddress]).then(result=>console.log(result))
+Promise.all([Person, personAddress]).then((result) => console.log(result));
 
-
-// //lecture NO 38 Symbol 
+// //lecture NO 38 Symbol
 
 // const   classRoom   =   {[Symbol("Mark")] :{RollNo:"061",Address:"Kuri road"},  [Symbol("Mark")]:{RollNo:"098",Address:"Islamabad"}};   const syms=Object.getOwnPropertySymbols(classRoom); syms.map(result=>console.log(result))
-   
-   
- 
-
-
-
