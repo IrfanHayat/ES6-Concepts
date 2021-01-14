@@ -3,15 +3,15 @@
 
 // var,let Const,
 
-// var hello="hello"
+var hello="hello"
 
-// if(hello==="hello")
-// {
+if(hello==="hello")
+{
 
-// 	var array=["1","2"]
-// 	console.log("world",hello)
-// }
-// console.log(array)
+	var array=["1","2"]
+	console.log("world",hello)
+}
+console.log(array)
 
 // lecture No 2
 // let vs const
@@ -354,15 +354,15 @@
 // }).catch(err=>{console.log(err)})
 
 // //lecture No 37 Promise
-const Person = new Promise((resolve) => {
-  resolve(["Muhammad Irfan", "062"]);
-});
+// const Person = new Promise((resolve) => {
+//   resolve(["Muhammad Irfan", "062"]);
+// });
 
-const personAddress = new Promise((resolve) => {
-  resolve(["Kuri Road"]);
-});
+// const personAddress = new Promise((resolve) => {
+//   resolve(["Kuri Road"]);
+// });
 
-Promise.all([Person, personAddress]).then((result) => console.log(result));
+// Promise.all([Person, personAddress]).then((result) => console.log(result));
 
 // //lecture NO 38 Symbol
 
