@@ -3,7 +3,7 @@
 
 // var,let Const,
 
-var hello="hello"
+var hello="hello1"
 
 if(hello==="hello")
 {
